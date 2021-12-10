@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<style>
+                   .text{
+			   flex:70;
+                     display:none;
+		     align-item:center;
+		   }
+		   .submittext{
+			   display:flex;
+		   }
+		   .button_a{
+			   flex:30;
+			   background-color:black;
+				   color:white;
+					   flex-direction:row;
+		   }
+		   .button_a:hover{
+			   background-color:red;
+				   color:black;
+					   cursor:pointer;
+		   }
+		   .button_a:hover~.text{
+			   display:block;
+				   flex-direction:row;
+					   align-items:center;
+						   justify-content:stretch;
+		   }
+
+		   .formfield{
+			   padding:20px;
+				   align-items:flex-end;
+		   }
+		   .submittext{
+			   align-items:flex-end;
+				   margin-left:87%;
+		   }
+		   form{ display: flex;
+                         flex-direction: column;
+                         margin-bottom: 9%;
+                         border: 10px dashed maroon;
+                  }         
+                </style>
+
+        </head>
+        
+	<body style="font-size:20px;border:5px dashed black;padding:5%">
+		<form style="display:flex;flex-direction:column" class="registrationform">
+		     
+		   <p style="font-size:27px">Registration Form</p>
+
+		   <div style="display:flex;flex-direction:row;"class="formfield">
+			   <label style="flex:4" class="formlabel">
+			       First Name
+			   </label>
+
+			   <input type="text" placeholder="First Name" class="forminput" style="flex:5">
+		   </div>
+
+		   <div style="display:flex;flex-direction:row;"class="formfield">
+                           <label style="flex:4" class="formlabel">
+                               Middle Name
+                           </label>
+
+                           <input type="text" placeholder="Middle Name" class="forminput" style="flex:5">
+                   </div>
+
+		   <div style="display:flex;flex-direction:row;"class="formfield">
+                           <label style="flex:4" class="formlabel">
+                               Last Name
+                           </label>
+
+                           <input type="text" placeholder="last Name" class="forminput" style="flex:5">
+                   </div>
+
+		   <div style="display:flex;flex-direction:row;"class="formfield">
+                           <label style="flex:4" class="formlabel">
+                               e-Mail
+                           </label>
+
+                           <input type="text" placeholder="E-mail" class="forminput" style="flex:5">
+                   </div>
+
+			<div class="formfield submittext">
+                          <input type="submit" value="Register" class="button_a">
+			  <br>
+		          <p class="text">This is Submit Button</p>
+
+	                </div>
+	        </form>
+	</body>
+	</html>
+

@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<style>
+                    body{
+			    background-color:lightcyan;
+		            border:5px solid coral;
+		            padding:45px;
+		    }
+		    #mytable::before{
+			    background-image:url('file:///home/milind/Documents/IMG_20200118_212321_665.jpg');
+                            background-repeat:no-repeat;
+                            background-attachment:fixed;
+                            background-size:cover;
+				    opacity:0.5;
+
+		    }
+                    table{
+			    border-collapse:collapse;
+		            border:2px solid black;
+	                    width:80%;
+			    margin-left:10%;
+		    }
+		    td,th{
+			    border-collapse:collapse;
+				    border:2px solid black;
+					    text-align:center;
+						    width:10%;
+		    }
+		    .footer_table {
+			    margin:20%;
+		            margin-top:5%;
+		    }
+                </style>
+	</head>
+
+		<body class="body">
+			<header style="display:flex;flex-direction:column">
+				<div style="display:flex;flex-direction:row">
+			
+                                   <img style="width:33.33%;height:40%;" src="file:///home/milind/Documents/Newton/nptel-logo.png"/>       
+			
+			
+				   <img style="width:33.33%;height:40%;" src="file:///home/milind/Documents/Newton/swayam_logo.png"/>
+				   <div style="width:14%">
+					   </div>
+				   <img style="width:14%;height:40%;" src="file:///home/milind/Documents/IMG_20200118_212321_665.jpg"/>
+				</div>
+				<div style="display:flex;flex-direction:row;margin:34px">
+                                   <span style="background-color:blueviolet;color:white;font-size:40px;flex:3;text-align:center;height:46px">
+					   MARKSHEET
+			           </span>
+				   <div style="display:flex;flex-direction:column;flex:7;align-items:center;height:46px;justify-content:space-evenly;">
+                                         <div style="display:flex;flex-direction:row;width:100%;margin:-15px">
+						 <h5 style="flex:1;text-align:end">Name:</h5>
+						 <h3 style="flex:1"> Milind Swain</h3>
+				         </div>
+
+					 <div style="display:flex;flex-direction:row;width:100%;margin:-24px;">
+                                                 <h5 style="flex:1;text-align:end">DOB:</h5>
+                                                 <h3 style="flex:1">11-10-1996</h3>
+                                         </div>
+			           </div>
+                                </div>
+			</header>
+			<table id="mytable">
+				<thead>
+					<tr style="background-color:white">
+						<th rowspan="2">Discipline</th>
+						<th rowspan="2">Year</th>
+						<th rowspan="2" style="width:30%">Course Name</th>
+						<th colspan="2">Marks</th>
+						<th rowspan="2">Total<br>Marks<br>(100%)</th>
+						<th rowspan="2">Status</th>
+						<th rowspan="2">Performance</th>
+						</tr>
+
+						<tr style="background-color:white">
+							<th>Assignment(25%)</th>
+							<th>Exam(75%)</th>
+							</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>PH</td>
+							<td>2021</td>
+							<td>Classical Mechanics:from newtonian to lagrangian</td>
+							<td>22.81</td>
+							<td>53.25</td>
+							<td>76</td>
+							<td>Pass</td>
+							<td>Elite+Silver</td>
+							</tr>
+
+							<tr>
+                                                        <td>PH</td>
+                                                        <td>2021</td>
+                                                        <td>Computational Physics</td>
+                                                        <td>21.85</td>
+                                                        <td>45</td>
+                                                        <td>67</td>
+                                                        <td>Pass</td>
+                                                        <td>Elite</td>
+                                                        </tr>
+
+							<tr>
+                                                        <td>PH</td>
+                                                        <td>2021</td>
+							<td>Solid State Physics</td>
+                                                        <td>18.04</td>
+                                                        <td>45</td>
+                                                        <td>63</td>
+                                                        <td>Pass</td>
+                                                        <td>Elite</td>
+                                                        </tr>
+						</tbody>
+				</table>
+                                <aside style="background-color:yellowgreen;float:right">
+				<details style="cursor:pointer">
+					<summary>Signature</summary>
+					<img style="height:63px" src="file:///home/milind/Documents/Internship/img992.jpg"/>
+					<br>
+					<div>
+						<h2 style="margin-bottom:0px;height:0px">PROF. ANDREW THANGRAJ</h2>
+						<br>
+						<p>NPTEL Coordinator
+						<br>IIT Madras</p>
+					</div>
+			        </details>
+				</aside>
+				<footer style="display:flex;flex-direction:row;width:100%;">
+					<table style="width:50%;margin-right:5px;" class="footer_table">
+						<thead>
+							<tr>
+							<th>Total Mark</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+							<td>>=90</td>
+							</tr>
+							<tr>
+							<td>75-89</td>
+							</tr>
+							<tr>
+							<td>>=60</td>
+							</tr>
+						</tbody>
+					</table>
+					<table style="width:50%;margin-left:5px;" class="footer_table">
+                                                <thead>
+                                                        <tr>
+                                                        <th>Performance</th>
+                                                        </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                        <td>Elite + Gold</td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td>Elite + Silver</td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td>Elite</td>
+                                                        </tr>
+                                                </tbody>
+                                        </table>
+
+				</footer>
+			</body>
+	</html>
+

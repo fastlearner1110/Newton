@@ -1,0 +1,218 @@
+<html>
+	<head>
+		<style>
+
+                   
+                  p{
+			 text-align:center; 
+                   }
+		  #super{
+			  border:1px solid green;
+		  }
+		  #sub{
+			  border:1px dashed magenta;
+		  }
+		  .heading{
+			  color:purple;
+		  }
+		  .input{
+			  color:salmon;
+		  }
+		  table{
+            margin-left: 25%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            border: 13px solid darkblue;
+}
+
+                  table{
+			  
+		          border-collapse:collapse;
+		  }
+		  td,th{
+			  border:1px solid red;
+				  padding:10px;
+					  text-align:center;
+		  }
+		  ul{
+			  list-style-type:square;
+		  }
+		  form {
+			  
+                 padding-right: 30%;
+		 padding-left: 30%;
+                 padding-top: 5%;
+                 padding-bottom: 5%;
+                 margin: 10%;
+                 border: 23px dashed darkmagenta;
+		  }
+
+		  .outerbox{
+			  margin:6%;
+			  border:10px solid green;
+		          background-color:lightyellow;
+				  display:flex;
+		  }
+
+		 .mybox{
+			  height:56px;
+		          width:56px;
+		          padding:5%; 
+			  border: 2px solid black; 
+			  background-color: red;
+		          display:flex;
+			  flex-direction:row;
+			  justify-content:center;
+			  align-items:center;
+		 }
+					  
+		  
+
+		 .innerbox{
+		          border:2px solid brown;
+		          padding:5px;
+		 }
+                </style>
+		</head>
+
+		<body>
+			<div style="display: none;">
+			<h1>This is heading 1</h1>
+			<h2>This is heading 2</h2>
+			<h3>This is <strike>heading 3</strike></h3>
+			<h4>This is <strong>heading 4</strong></h4>
+			<h5>This is <b>heading 5</b></h5>
+			<h6>This is <i>heading 6</i></h6>
+
+			<p>This is para</p>
+			<p id="super">Suber<sup>This is Body</sup></p>
+			<p id="sub">Sub<sub>This is body</sub></p>
+			<a href="https://internalapp.nptel.ac.in/NOC/NOC21/SEM2/Ecertificates/115/noc21-ph21/Course/NPTEL21PH21S1329011703161777.jpg">Solid State Physics</a>
+	
+
+		<h1>My Interesting Form</h1>
+
+		<form>
+
+			<label>User Name</label>
+			<input type="text" placeholder="Enter your name">
+                        <br>
+			<label>Password</label>
+			<input type="password">
+			<input type="submit">
+			<br>
+			<input type="radio" value="login">
+			<label>login</label>
+			<input type="radio" value="SignUp">
+			<label>SignUp</label>
+
+			<br>
+			<label>your key interest?</label>
+			<br>
+			<input type="checkbox">
+			<label>dancing</label>
+			<br>
+			<input type="checkbox">
+			<label>singing</label>
+			<br>
+			<input type="checkbox">
+			<label>Foot Ball</label>
+			<br>
+			<select>
+				<option>Dancing</option>
+				<option>Singing</option>
+				<option>Foot Ball</option>
+			</select>
+			<br>
+			<select multiple>
+				<option>Dancing</option>
+				<option>Singing</option>
+				<option>Foot Ball</option>
+				</select>
+				<br>
+				<br>
+				<label>Comments</label>
+				<br>
+
+				<textarea rows="10" cols="10">
+					</textarea>
+					<input type="submit">
+			</form>
+
+			<table>
+				<thead>
+					</thead>
+					<tbody>
+						<tr>
+							<th class="heading">Course</th>
+							<th class="heading">Assignment Score</th>
+							<th class="heading">Exam Score</th>
+							<th class="heading">Total Score</th>
+							</tr>
+
+							<tr>
+								<td class="input">Classical Mechanics</td>
+								<td class="input">22.85</td>
+								<td class="input">55</td>
+								<td class="input">77.85</td>
+								</tr>
+
+								<tr>
+									<td class="input">Computational Physics</td>
+									<td class="input">21.53</td>
+									<td class="input">45</td>
+									<td class="input">66.53</td>
+									</tr>
+									<tr>
+										<td class="input">Solid State Physics</td>
+										<td class="input">18.5</td>
+										<td class="input">45</td>
+										<td class="input" style="background-color:cyan; border:2px dashed coral">63.5</td>
+										</tr>
+						</tbody>
+				</table>
+				<h1>Ordered List</h1>
+				<ol>
+					<li>Classical Mechanics</li>
+					<li>Computational Physics</li>
+					<li>Solid State Physics</li>
+					</ol>
+
+					<h1>Un-ordered List</h1>
+					<ul>
+						<li>Classical Mechanics</li>
+						<li>Computational Physics</li>
+						<li>Solid State Physics</li>
+						</ul>
+
+						<h1>Nested List</h1>
+						<ol>
+							<li>Milind</li>
+							<ul>
+								<li>Classical Mechanics</li>
+								<li>Computational Physics</li>
+								<li>Solid State Physics</li>
+								<ul>
+							</ol>
+							</div>
+
+							<div class="outerbox">
+	                                  							
+							
+								<div class="mybox" style="display:flex;flex:1;flex-direction:column">
+								  <div class="innerbox">
+                                                                     <h1>1</h1>
+							          </div>
+								  <div class="innerbox">
+                                                                     <h1>2</h1>
+							          </div>
+								</div>
+								<div class="mybox" style="flex:1"><h1>3</h1></div>
+							<!--        <div class="mybox"><h1 class="innerbox">3</h1></div>
+								<div class="mybox"><h1 class="innerbox">4</h1></div>
+								<div class="mybox"><h1 class="innerbox">5</h1></div>
+								<div class="mybox"><h1 class="innerbox">6</h1></div> -->
+							
+							</div>
+								</body>
+	</html>
